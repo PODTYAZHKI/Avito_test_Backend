@@ -1,0 +1,7 @@
+[build]
+  cmd = "go build -o tender-service ."
+  bin = "tender-service"
+  exclude = ["assets", "tmp"]
+
+[watch]
+  include = ["*.go"]
